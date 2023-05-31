@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* height: 100vh; */
+    background-color: #0F141F;
+}
+nav .navbar{
+    margin: 15px 30px;
+    /* margin-bottom: 40px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar a{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 30px;
+}
+nav{
+    /* background-color: #22223b; */
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+.ulli li{
+    list-style: none;
+    padding: 10px 20px;
+}
+
+/* Upcoming MOvies */
+
+.movie{
+    background-color: #141927;
+    padding: 20px 30px;
+    border-radius: 15px;
+    width: 255px;
+    margin-left: 30px;
+    /* align-items: center; */
+}
+
+.current{
+    width: 1300px;
+    /* align-items: center; */
+}
+
+.current h2{
+    color: white;
+    align-items: center;
+    margin-left: 80px;
+    font-size: 30px;
+    font-family: 'Alkatra', cursive;
+}
+.moviesList{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    /* width: 1300px; */
+}
+.moviesimg1 img{
+    height: 270px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.btn-view-more{
+    border: 1px solid #1B69D8;
+    background: transparent;
+    color: #1B69D8;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    margin-left: 45px;
+}
+.btn-view-more:hover{
+    background-color: #1B69D8;
+    color:#141927;
+    margin-bottom: 10px;
+    margin-left: 45px;
+}
+.current{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
